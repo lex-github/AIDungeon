@@ -21,7 +21,7 @@ gpt2.finetune(
     learning_rate=0.0001,
     model_name=model_name,
     sample_every=10000,
-    max_checkpoints=8,
+    max_checkpoints=12,
     save_every=200,
     steps=1000,
 )
