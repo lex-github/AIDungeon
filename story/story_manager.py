@@ -198,7 +198,7 @@ class StoryManager:
         return self.story.to_json()
 
     def story_context(self):
-        if self.story == None
+        if self.story is None
             return ""
         return self.story.latest_result()
 
